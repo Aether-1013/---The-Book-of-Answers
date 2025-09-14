@@ -54,7 +54,6 @@
 ├── index.html     # 主页面结构
 ├── style.css      # 样式表文件
 ├── script.js      # JavaScript交互逻辑
-├── .gitignore     # Git忽略文件配置
 └── README.md      # 项目说明文档
 ```
 
