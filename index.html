@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>答案之书 - 你的人生智慧指南</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">答案之书</h1>
+        <p class="subtitle">你的人生智慧指南</p>
+        
+        <div class="book-container">
+            <div class="book">
+                <div class="page" id="left-page">
+                    <div class="page-content" id="left-content">
+                        <div class="question-prompt">请在心中默默思考你的问题...</div>
+                    </div>
+                </div>
+                <div class="page" id="right-page">
+                    <div class="page-content" id="right-content">
+                        <div class="answer-placeholder">点击封面获取答案</div>
+                    </div>
+                </div>
+                <div class="book-spine"></div>
+            </div>
+            <div class="book-cover" id="book-cover">
+                <div class="cover-title">答案之书</div>
+                <div class="cover-subtitle">The Book of Answers</div>
+                <div class="cover-decoration"></div>
+            </div>
+        </div>
+        
+        <div class="question-container">
+            <input type="text" id="question-input" placeholder="输入你的问题..." maxlength="100">
+            <button id="ask-button" class="btn">获取答案</button>
+        </div>
+        
+        <div class="history-container">
+            <div class="history-header">
+                <h3>历史记录</h3>
+                <a href="https://github.com/Aether-1013" target="_blank" rel="noopener" class="made-by-link">Made by Aether</a>
+            </div>
+            <div id="history-list" class="history-list"></div>
+        </div>
+    </div>
+    
+    <div class="animation-container" id="animation-container"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
